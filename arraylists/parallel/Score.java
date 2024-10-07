@@ -1,4 +1,4 @@
-public class Score {
+public class Score implements Comparable<Score> {
     private String name;
     private int score;
 
@@ -13,5 +13,9 @@ public class Score {
 
     public int getScore() {
         return score;
+    }
+
+    public int compareTo(Score o) {
+        return score - o.score;
     }
 }
