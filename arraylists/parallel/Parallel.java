@@ -10,6 +10,7 @@ public class Parallel {
         for (int i = 0; i < scores.length; i++) {
             System.out.println(scores[i].getName() + " " + scores[i].getScore());
         }
+        System.out.println();
         Arrays.sort(scores);
         for (int i = 0; i < scores.length; i++) {
             System.out.println(scores[i].getName() + " " + scores[i].getScore());
