@@ -25,8 +25,8 @@ public class ObjectArrays {
     private static void modifyArray(Car[] arr) {
         arr[0] = new Car(2023, "Tesla", "Cybertruck");
         for (int i = 1; i < arr.length; i++) {
-            if (cars[i].getMake().equals("Toyota")) {
-                cars[i].setModel("Highlander");
+            if (arr[i].getMake().equals("Toyota")) {
+                arr[i].setModel("Highlander");
             }
         }
     }

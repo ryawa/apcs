@@ -1,0 +1,9 @@
+Joe Bob,Sally,123-45-6789,11,AP Comp Sci,100
+Joe Bob,Sally,123-45-6789,11,AP Calc BC,100
+Joe Bob,Sally,123-45-6789,11,AP Physics,100
+Cakulev,Phil,222-33-4321,11,AP Comp Sci,45
+Cakulev,Phil,222-33-4321,11,AP Calc BC,51
+Cakulev,Phil,222-33-4321,11,AP Physics,37
+Stack,Trevor,262-33-8321,12,Ice Melting,78
+Stack,Trevor,262-33-8321,12,Paint drying,82
+Stack,Trevor,262-33-8321,12,Stamp Licking,90

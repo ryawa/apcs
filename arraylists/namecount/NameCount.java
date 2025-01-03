@@ -1,5 +1,7 @@
-import java.util.*;
-import java.io.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class NameCount {
   public static void main(String[] args) throws FileNotFoundException {
@@ -42,5 +44,6 @@ public class NameCount {
     if (!found) {
       System.out.println("Not found");
     }
+    s.close();
   }
 }
