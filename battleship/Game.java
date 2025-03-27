@@ -12,8 +12,6 @@ public class Game {
     private int playerHits = 0;
     private int computerHits = 0;
 
-    private boolean finished = false;
-
     Scanner s = new Scanner(System.in);
     Random r = new Random();
 
